@@ -9,7 +9,7 @@
 
   /* system, avail everywhere */
   --system-base: #ffffff;
-  --system-base-tone-1: #969896;
+  --system-base-tone-1: #E5E5E5;
   --system-fore: #1d1f21;
   --system-fore-tone-1: #373b41;
   --system-fore-tone-2: #282a2e;
@@ -30,11 +30,14 @@
 }
 
 
-/* themes set in project soure, avail everywhere */
+/*
+ * themes set in project soure, avail everywhere
+*/
 .theme--system {
   background-color: var(--system-base);
   color: var(--system-fore);
 }
+
 
 .theme--system-mid {
   background-color: var(--system-base-tone-1);
@@ -43,10 +46,48 @@
 
 .theme--system-inverse {
   background-color: var(--system-fore-tone-1);
-  color: var(--system-base-tone-1);
+  color: var(--system-base);
 }
 
+.btn--system-primary,
 .theme--system-primary {
   background-color: var(--system-primary);
   color: var(--system-base);
+}
+
+.text--system-primary {
+  color: var(--system-primary);
+}
+
+.btn {
+  padding: 14px 24px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+/*
+ * pallets - agnostic components that rely on parent
+ * pallet CSS vars to have loaded
+*/
+.theme--pallet {
+  background-color: var(--pallet-base);
+  color: var(--pallet-fore);
+}
+
+
+.theme--pallet-mid {
+  background-color: var(--pallet-base-tone-1);
+  color: var(--pallet-fore);
+}
+
+.theme--pallet-inverse {
+  background-color: var(--pallet-fore-tone-1);
+  color: var(--pallet-base);
+}
+
+.btn--pallet-primary,
+.theme--pallet-primary {
+  background-color: var(--pallet-primary);
+  color: var(--pallet-base);
 }

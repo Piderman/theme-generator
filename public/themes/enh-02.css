@@ -1,0 +1,9 @@
+/* tailwind pink/rose */
+.pallet--enh-02 {
+  --pallet-base: #FCE7F3;
+  --pallet-base-tone-1: #FECDD3;
+  --pallet-fore: #701A75;
+  --pallet-fore-tone-1: #86198F;
+  --pallet-fore-tone-2: #A21CAF;
+  --pallet-primary: #6366F1;
+}

@@ -1,0 +1,9 @@
+/* tailwind brown? */
+.pallet--enh-04 {
+  --pallet-base: #92400E;
+  --pallet-base-tone-1: #9A3412;
+  --pallet-fore: #F5F5F4;
+  --pallet-fore-tone-1: #FEF3C7;
+  --pallet-fore-tone-2: #FEFCE8;
+  --pallet-primary: #FDBA74;
+}

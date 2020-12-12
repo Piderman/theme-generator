@@ -2,7 +2,11 @@
   <div id="app">
     <div id="nav" class="theme--system-light">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/standard">Standard</router-link> |
+      <router-link to="/enhanced-1">Enhanced 1</router-link> |
+      <router-link to="/enhanced-2">Enhanced 2</router-link> |
+      <router-link to="/enhanced-4">Enhanced 4</router-link> |
+      <router-link to="/combined">Combined</router-link>
     </div>
     <router-view/>
     <div id="footer" class="spacer-3 theme--system-primary">
@@ -30,9 +34,16 @@ a {
   color: var(--system-primary);
 }
 
+.spacer-1 {
+  > * + * {
+    margin-top: 1em;
+  }
+}
+
 
 #nav {
   padding: 30px;
+  border-bottom: 1px solid var(--system-base-tone-1);
 
   a {
     font-weight: bold;

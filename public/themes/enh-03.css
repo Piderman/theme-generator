@@ -1,0 +1,9 @@
+/* tailwind blues */
+.pallet--enh-03 {
+  --pallet-base: #155E75;
+  --pallet-base-tone-1: #0369A1;
+  --pallet-fore: #F1F5F9;
+  --pallet-fore-tone-1: #E5E7EB;
+  --pallet-fore-tone-2: #CFFAFE;
+  --pallet-primary: #10B981;
+}
