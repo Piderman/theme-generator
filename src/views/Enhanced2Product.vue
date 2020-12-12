@@ -9,7 +9,7 @@
 
     <Content v-bind="primaryPayload" />
 
-    <Content v-bind="introPayload" />
+    <Content v-bind="outroPayload" />
 
     <Content v-bind="systemPayload" />
   </div>
@@ -36,21 +36,29 @@ const pallet = 'enh-02';
           }
         },
         pallet,
-        // theme: 'system-inverse',
       },
       introPayload: {
         content: {
-          heading: 'section 1 content'
+          heading: 'section 1 content',
+          body: 'pattern PNG Designed By ANITAStudio from <a href="https://pngtree.com">Pngtree.com</a>'
         },
         pallet,
-        theme: 'mid'
+        theme: 'inverse',
+        bgImage: true,
       },
       primaryPayload: {
         content: {
-          heading: 'primary content'
+          heading: 'primary content',
         },
         pallet,
-        theme: 'primary'
+        theme: 'primary',
+      },
+      outroPayload: {
+        content: {
+          heading: 'outro content mid theme',
+        },
+        pallet,
+        theme: 'mid',
       },
       systemPayload: {
         content: {

@@ -1,6 +1,6 @@
 <template>
   <div class="standard">
-    <link rel="stylesheet" href="/themes/enh-01.css">
+    <link rel="stylesheet" href="/themes/enh-04.css">
     <DebugPallet pallet="enh-04"/>
 
     <Banner v-bind="bannerPayload" />
@@ -10,6 +10,8 @@
     <Content v-bind="primaryPayload" />
 
     <Content v-bind="introPayload" />
+
+    <Content v-bind="patternPayload" />
 
     <Content v-bind="systemPayload" />
   </div>
@@ -41,17 +43,29 @@ const pallet = 'enh-04';
       },
       introPayload: {
         content: {
-          heading: 'section 1 content'
+          heading: 'section 1 content',
         },
         pallet,
-        theme: 'mid'
+        theme: 'mid',
       },
       primaryPayload: {
         content: {
           heading: 'primary content'
         },
         pallet,
-        theme: 'primary'
+        theme: 'primary',
+      },
+      patternPayload: {
+        content: {
+          heading: 'has pattern',
+          body: `
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque hic natus adipisci eos voluptatem</p>
+            <p>dessert clipart PNG Designed By ngupakarti from <a href="https://pngtree.com">Pngtree.com</a></p>
+          `
+        },
+        pallet,
+        theme: 'mid',
+        bgImage: true,
       },
       systemPayload: {
         content: {

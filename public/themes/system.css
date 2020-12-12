@@ -21,6 +21,14 @@
   color: var(--pallet-fore);
 }
 
+.bg-image[pallet] {
+  background-image: var(--pallet-pattern);
+  background-repeat: repeat;
+  background-blend-mode: multiply;
+  background-blend-mode: soft-light;
+  background-size: 25%;
+}
+
 .spacer-1 {
   padding: 2em 1em;
 }
