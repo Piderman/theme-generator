@@ -49,7 +49,7 @@ export default class Combined extends Vue {
         },
         cta: {
           text: 'see page',
-          routeName: 'enhanced-1',
+          routePath: 'enhanced-1',
         }
       },
       pallet: 'enh-01'
@@ -76,7 +76,7 @@ export default class Combined extends Vue {
         },
         cta: {
           text: 'see page',
-          routeName: 'enhanced-3',
+          routePath: 'enhanced-3',
         }
       },
       pallet: 'enh-04',
