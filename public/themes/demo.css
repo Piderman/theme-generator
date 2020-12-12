@@ -1,0 +1,9 @@
+/* demo pallet */
+.pallet--demo {
+  --pallet-base: #1B4B46;
+  --pallet-base-tone-1: #21897E;
+  --pallet-fore: #7EBCE6;
+  --pallet-fore-tone-1: #69D1C5;
+  --pallet-fore-tone-2: #41B4A8;
+  --pallet-primary: #8980F5;
+}

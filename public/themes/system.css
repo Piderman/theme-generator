@@ -1,0 +1,52 @@
+:root {
+  /* pallet bootstrap */
+  --pallet-base: #ffffff;
+  --pallet-base-tone-1: #7285b7;
+  --pallet-fore: #002451;
+  --pallet-fore-tone-1: #00346e;
+  --pallet-fore-tone-2: #003f8e;
+  --pallet-primary: #ebbbff;
+
+  /* system, avail everywhere */
+  --system-base: #ffffff;
+  --system-base-tone-1: #969896;
+  --system-fore: #1d1f21;
+  --system-fore-tone-1: #373b41;
+  --system-fore-tone-2: #282a2e;
+  --system-primary: #f5871f;
+}
+
+[pallet] {
+  background-color: var(--pallet-base);
+  color: var(--pallet-fore);
+}
+
+.spacer-1 {
+  padding: 2em 1em;
+}
+
+.spacer-3 {
+  padding: .5em 1em;
+}
+
+
+/* themes set in project soure, avail everywhere */
+.theme--system {
+  background-color: var(--system-base);
+  color: var(--system-fore);
+}
+
+.theme--system-mid {
+  background-color: var(--system-base-tone-1);
+  color: var(--system-fore);
+}
+
+.theme--system-inverse {
+  background-color: var(--system-fore-tone-1);
+  color: var(--system-base-tone-1);
+}
+
+.theme--system-primary {
+  background-color: var(--system-primary);
+  color: var(--system-base);
+}
