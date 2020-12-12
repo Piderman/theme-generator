@@ -33,8 +33,7 @@ const pallet = 'enh-04';
         content: {
           heading: 'pallet 4 banner',
           image: {
-            id: '1039',
-            size: 'large'
+            id: '301',
           },
         },
         ctaClass: 'btn--pallet-primary',
